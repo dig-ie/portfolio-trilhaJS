@@ -1,0 +1,94 @@
+@font-face{
+  font-family: 'neue-machina';
+  src: url('./assets/fonts/NeueMachina-Regular.otf') format('otf');
+}
+.card{
+    /* Width: 1643px;
+    Height: 2011px; */
+    width: 80%;
+    height: 50%;
+    overflow-x: hidden;
+    border: 1px solid #fff;
+    background-color: black;
+    margin-top: 4rem;
+    border-width: 0.6px;
+    border-radius: 20px;
+	}
+.portfolio-header{
+  display: flex;
+  flex-direction: row;
+  background-color: brown;
+  align-items: center;
+  justify-content: center;
+}
+.informations-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.card-header{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.informations{
+	text-align: left;
+  color: white;
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  margin:auto;
+}
+.info-icon{
+  width: 7px;
+  height: 7px;
+  margin-right: 6px;
+}
+.info-container{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  font-size: smaller;
+  margin-bottom: 5px;
+}
+.profile-picture{
+  border-radius: 217.97px;
+  width:5.5rem;
+  height:5.5rem;
+  /* margin-right: 1rem;
+  margin-left: 1rem; */
+  margin: auto;
+  margin-right: 0px;
+  margin-left: 50px;
+}
+#name{
+  font-family: 'neue-machina';
+  font-size:  16px;
+  font-weight: 400;
+  /* line-height: 82px; */
+  color: rgba(255, 255, 255, 1); 
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.acordeon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.botao{
+  border-radius: 14px;
+  height: 35px;
+  width: 280px;
+  margin-bottom: 12px;
+  background: none;
+  /* border: solid;
+  border-width: 10px; */
+  border-style: solid;
+  border-width: 0.2px;
+  border-color: white;
+  color: white;
+  text-align: left;
+  padding-left: 1.5rem;
+  font-weight: 700;
+}
