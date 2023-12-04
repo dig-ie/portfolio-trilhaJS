@@ -14,18 +14,6 @@
     border-width: 0.6px;
     border-radius: 20px;
 	}
-.portfolio-header{
-  display: flex;
-  flex-direction: row;
-  background-color: brown;
-  align-items: center;
-  justify-content: center;
-}
-.informations-container{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
 .card-header{
   display: flex;
   flex-direction: row;
@@ -66,29 +54,7 @@
   font-family: 'neue-machina';
   font-size:  16px;
   font-weight: 400;
-  /* line-height: 82px; */
   color: rgba(255, 255, 255, 1); 
   margin-top: 5px;
   margin-bottom: 5px;
-}
-.acordeon{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.botao{
-  border-radius: 14px;
-  height: 35px;
-  width: 280px;
-  margin-bottom: 12px;
-  background: none;
-  /* border: solid;
-  border-width: 10px; */
-  border-style: solid;
-  border-width: 0.2px;
-  border-color: white;
-  color: white;
-  text-align: left;
-  padding-left: 1.5rem;
-  font-weight: 700;
 }
