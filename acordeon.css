@@ -34,15 +34,20 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url('./assets/icons/arrow.svg');
+    transition: .25s;
 }
 .acordeon .content {
-    color: #fff;
-    display: none;
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
 }
 .acordeon.open .trigger::after {
     transform: rotate(180deg)
 }
 .acordeon.open .content {
     display:inline-block;
+    height: auto;
+    opacity: 1 !important;
     
 }
