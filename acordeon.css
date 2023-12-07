@@ -5,6 +5,7 @@
     border-radius: 1rem; 
     z-index: 0 !important;
     width: 80%;
+    margin-bottom: 10px;
 }
 .acordeon .trigger {
     width: 100%;
@@ -43,6 +44,9 @@
     height: 0;
     opacity: 0;
     transition: opacity .25s ease-in-out;
+    font-weight: 700;
+    font-size: 0.7rem;
+    color: #fff;
 }
 .acordeon.open .trigger::after {
     transform: rotate(180deg)
