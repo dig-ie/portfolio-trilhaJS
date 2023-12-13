@@ -11,9 +11,15 @@
   <link rel="stylesheet" href="./acordeon.css">
   <link rel="stylesheet" href="./languages.css">
   <link rel="stylesheet" href="./portfolio.css">
+  <link rel="stylesheet" href="./professional_experience.css">
+  <link rel="stylesheet" href="./education.css">
+  <link rel="stylesheet" href="./skills.css">
   <!--Fontes -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -44,6 +50,29 @@
           </div>
       </div>
     </header>
+    <section class="acordeon" id="skills_acordeon">
+      <button class="trigger">Skills</button>
+      <div class="content" id="skills_content">
+        <div class="professional_skills">
+          <h3>Habilidades profissionais</h3><br>
+          <div>
+            <img src="./assets/icons/whitejs.svg" alt="">
+            <img src="./assets/icons/whitecss.svg" alt="">
+            <img src="./assets/icons/whitemysql.svg" alt="">
+            <img src="./assets/icons/whitejava.svg" alt="">
+          </div>
+        </div>
+        <div class="personal_skills">
+          <h3>Habilidades pessoais</h3><br>
+          <ul>
+            <li>Facilidade com tarefas práticas</li>
+            <li>Comunicação</li>
+            <li>Trabalho em equipe</li>
+            <li>Comprometimento com Resultados</li>
+          </ul>
+        </div>
+      </div>
+    </section>
     <section class="acordeon">
       <button class="trigger">Idiomas</button>
       <div class="content">
@@ -59,16 +88,86 @@
         <ul class="links">
           <li>
             <span>Pokedéx com dados da PokeApi (JS Vanilla)</span>
-            <a href="https://github.com/diegoDeBarros/js-my-pokedex">https://github.com/diegoDeBarros/js-my-pokedex</a>
+            <a target="_blank" href="https://github.com/diegoDeBarros/js-my-pokedex">https://github.com/diegoDeBarros/js-my-pokedex</a>
           </li>
           <li>
             <span>Desafio labOO (POO) de Java da DIO</span>
-            <a href="https://github.com/diegoDeBarros/LabOOJava">https://github.com/diegoDeBarros/LabOOJava</a>
+            <a target="_blank" href="https://github.com/diegoDeBarros/LabOOJava">https://github.com/diegoDeBarros/LabOOJava</a>
           </li>
           <li>
             <span>"Progama de anotações" no console com linguagem C</span>
-            <a href="https://github.com/diegoDeBarros/coding_Programa_de_anotacoes_em_C">https://github.com/diegoDeBarros/coding_Programa_de_anotacoes_em_C</a>
+            <a target="_blank" href="https://github.com/diegoDeBarros/coding_Programa_de_anotacoes_em_C">https://github.com/diegoDeBarros/coding_Programa_de_anotacoes_em_C</a>
           </li>
+        </ul>
+      </div>
+    </section>
+    <section class="acordeon">
+      <button class="trigger">Experiência Profissional</button>
+      <div class="content">
+        <ul class="professional-experience">
+          <li>
+            <h2>Software Support</h2>
+            <br>
+            <span>Aug 2022 - Current</span>
+            <br><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Rem deleniti cupiditate magni, praesentium similique aut dignissimos
+                voluptatum temporibus rerum omnis iure nisi accusamus assumenda. Quae rerum doloremque voluptatem obcaecati vero?</p>
+          </li>
+          <li>
+            <h2>Front End - Programa de Residência Porto Digital (SiDi)</h2>
+            <br>
+            <span>2022.2</span>
+            <br><br>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, aliquam totam repellendus possimus doloremque cumque enim vero, quibusdam voluptatibus quaerat explicabo molestias laboriosam sunt beatae atque quas fuga unde iure.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="acordeon">
+      <button class="trigger">Educação</button>
+      <div class="content">
+        <div class="img-container">
+          <img src="./assets/icons/github.svg" alt="Ícone de aquarela">
+          <img src="./assets/icons/JS.svg" alt="Ícone do JavaScript">
+          <img src="./assets/icons/css.svg" alt="Ícone do Css">
+          <img src="./assets/icons/java.svg" alt="Ícone do Java">
+          <img src="./assets/icons/mysql.svg" alt="Ícone do MySql">
+          <img src="./assets/imgs/computer1.png" alt="Ícone de computador">
+          <img src="./assets/imgs/aquarela.png" alt="Ícone de aquarela">
+        </div>
+        
+        <ul class="education">
+          <li>
+            <br>
+            <h3>Digital Inovation One</h3>
+            <span>Formação JavaScript Developer (39 Hrs) - 2023.2 <br/>
+                  Outros Cursos independentes - 2022 (Current)
+            </span>
+          </li>
+          <li>
+            <br>
+            <h3>Faculdade Senac Pernambuco</h3>
+            <span>Superior de tecnologia em Análise e Desenvolvimento de Sistemas - 2022.1 (Current)</span>
+          </li>
+          <li>
+            <br>
+            <h3>Embarque Digital - Porto Digital</h3>
+            <span>Residência tecnológica com o Porto Digital - 2022.1 (Current)</span>
+          </li>
+          <li>
+            <br>
+            <h3>ETE - Prof. José Luiz de Mendonça</h3>
+            <span>Curso Técnico em Redes de Computadores - 2017</span>
+          </li>
+          <li>
+            <br>
+            <h3>Speed Work Cursos</h3>
+            <span>Computação gráfica (Photoshop, Adobe Illustrator, Corel Draw...) - 2014</span>
+          </li>
+          
         </ul>
       </div>
     </section>

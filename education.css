@@ -1,0 +1,21 @@
+.content img{
+    width: 2rem;
+    height: 2rem;
+    
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.education h3{
+    font-weight: 800;
+    font-size: 0.8rem;
+}
+
+ul{
+    padding-bottom: 2rem;
+}

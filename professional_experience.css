@@ -1,0 +1,24 @@
+.professional-experience h2{
+
+    font-weight: 700;
+}
+
+.professional-experience p{
+    margin-bottom: 1rem;
+}
+
+.professional-experience{
+    width: 80%;
+    list-style: none;
+}
+
+.professional-experience span::before{
+    content: '';
+    display: inline-block;
+    background-image: url('assets/icons/calendar.svg');
+    width: .75rem;
+    height: .75rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 5px;
+}

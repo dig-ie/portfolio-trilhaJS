@@ -1,0 +1,40 @@
+#skills_content {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: 700; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#skills_content h3{
+    text-align: center;
+    font-weight: 700;
+}
+
+.professional_skills div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2px;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+}
+.professional_skills img{
+    display: inline-block;
+    box-sizing: border-box;
+    
+}
+.personal_skills ul{
+    list-style: default !important;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 22px;
+}
+
+.personal_skills ul li{
+    text-align: left;
+    margin-bottom: 5px;
+}
