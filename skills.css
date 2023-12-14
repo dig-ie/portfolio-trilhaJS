@@ -5,10 +5,26 @@
     align-items: center;
     font-size: 0.8rem;
     font-weight: 700; */
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-evenly;
 }
 
+#skills_content h3{
+    text-align: center !important;
+}
+
+.professional_skills div{
+
+   width:50% !important;
+   display: flex;
+   align-items: center;
+
+}
+
+.personal_skills{
+    width:50%;
+    max-width: 50%;
+}
 #skills_content h3{
     text-align: center;
     font-weight: 700;
@@ -32,6 +48,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 22px;
+    padding:0;
 }
 
 .personal_skills ul li{
