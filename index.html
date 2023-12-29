@@ -31,7 +31,7 @@
   <body>
     <div class="card">
       <header class="card-header">
-        <img
+        <img id="profile.photo"
           class="profile-picture"
           src="assets/imgs/profile-picture.jpg"
           alt="foto de perfil"
@@ -40,8 +40,7 @@
           <div class="name-container">
             <h1 id="name">
               Olá,<br />
-              eu sou o <br />
-              Diêgo de Barros
+              eu sou o <br /><span class="profile.name">Diêgo de Barros</span>
             </h1>
           </div>
           <div class="info-container">
@@ -50,7 +49,7 @@
               src="./assets/icons/profile.svg"
               alt="Ícone de avatar"
             />
-            <p>Desenvolvedor Front-End</p>
+            <p class="profile.job">Desenvolvedor Front-End</p>
           </div>
           <div class="info-container">
             <img
@@ -58,7 +57,7 @@
               src="./assets/icons/location.svg"
               alt="Ícone de localização"
             />
-            <p>Recife - PE</p>
+            <p class="profile.location">Recife - PE</p>
           </div>
           <div class="info-container">
             <img
@@ -66,7 +65,7 @@
               src="./assets/icons/number.svg"
               alt="Ícone do WhatsApp"
             />
-            <p>(81)98853-2136</p>
+            <p class="profile.phone">(81)98853-2136</p>
           </div>
           <div class="info-container">
             <img
@@ -74,7 +73,7 @@
               src="./assets/icons/email.svg"
               alt="Ícone de e-mail"
             />
-            <p>debarrosdiego415@gmail.com</p>
+            <p class="profile.email">debarrosdiego415@gmail.com</p>
           </div>
         </div>
       </header>
@@ -243,6 +242,9 @@
       </section>
     </div>
 
-    <script src="./acordeon.js"></script>
+    <script src="./js/acordeon.js"></script>
+    <script src="./js/api.js
+    "></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
