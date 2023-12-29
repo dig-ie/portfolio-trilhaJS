@@ -40,7 +40,7 @@
   height: 0.5rem;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url("./assets/icons/arrow.svg");
+  background-image: url(".././assets/icons/arrow.svg");
   transition: 0.25s;
 }
 .acordeon .content {
