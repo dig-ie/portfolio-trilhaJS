@@ -28,6 +28,37 @@ async function resolveLanguages(profileData){
   languages.innerHTML = profileData.languages.map(language =>`<li>${language}</li>`).join('')
 }
 
+async function resolveEducation(profileData){
+  const educationUl = document.getElementById('profile.education')
+  educationUl.innerHTML = profileData.education.map(education => `<li>
+  <br />
+  <h3>${education.name}</h3>
+  <span
+    >${education.description}
+  </span>
+</li>`).join('')
+}
+async function resolvePortfolio(profileData){
+  const portfolio = document.getElementById('profile.portfolio')
+  portfolio.innerHTML = profileData.portfolio.map(project => `<li>
+  <h3>${project.name}</h3>
+  <a
+  ${project.url}
+  >
+</li>`)
+}
+async function resolveProfessionalXP(profileData){
+  const professionalXP = document.getElementById('profile.professionalExperience')
+  professionalXP.innerHTML = profileData.professionalExperience.map(XP => `<li>
+  <h2>${XP.name}</h2>
+  <br />
+  <span>${XP.period}</span>
+  <br /><br />
+  <p>
+  ${XP.description}
+  </p>
+</li>`).join('')
+}
 document.addEventListener('DOMContentLoaded', async function() {
   const profileData = await fetchProfileData();
   console.log(profileData);
@@ -35,6 +66,8 @@ document.addEventListener('DOMContentLoaded', async function() {
   resolveSoftSkilss(profileData);
   resolveHardSkills(profileData);
   resolveLanguages(profileData);
+  resolveEducation(profileData)
+  resolveProfessionalXP(profileData)
 });
 
  

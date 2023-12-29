@@ -48,7 +48,7 @@
   "languages": ["Português BR", "Inglês (intermediário)"],
   "education":[{"name":"Digital Inovation One", "description":"Formação JavaScript Developer (39 Hrs) - 2023.2"},
                {"name":"CertiProf", "description":"Scrum Foundation Professional Certification - SFPC - 2022.2"},
-               {"name":"Faculdade Senac Pernambuco", "description":"Superior de tecnologia em Análise e Desenvolvimento de Sistemas - 2022.1 (Current)"},
+               {"name":"Faculdade Senac Pernambuco", "description":"Superior de tecnologia em Análise e Desenvolvimento de Sistemas - 4th period - 2022.1 (Current)"},
                {"name":"Embarque Digital - Porto Digital", "description":"Residência tecnológica com o Porto Digital - 2022.1 (Current)"},
                {"name":"ETE - Prof. José Luiz de Mendonça", "description":"Curso Técnico em Redes de Computadores - 2017"},
                {"name":"Speed Work Cursos", "description":"Computação gráfica (Photoshop, Adobe Illustrator, Corel Draw...) - 2014"}
@@ -56,31 +56,36 @@
 
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "Pokedéx com dados da PokeApi (JS Vanilla)",
+      "url": "https://github.com/diegoDeBarros/js-my-pokedex",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Projeto de e-commerce com React.TS",
+      "url": "https://github.com/diegoDeBarros/E-commerce-project",
       "github": true
-    }
+    },
+    {
+      "name": "Desafio labOO (POO) de Java da DIO",
+      "url": "https://github.com/diegoDeBarros/LabOOJava",
+      "github": true
+    },
+    { 
+    "name": "Progama de anotações no console com linguagem C",
+    "url": "https://github.com/diegoDeBarros/coding_Programa_de_anotacoes_em_C",
+    "github": true
+  }
   ],
   "professionalExperience": [
     {
-      "name": "Arquiteto de software / S3 BANK",
+      "name": "Software Support",
       "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+      "description": "Boa forma de construir aprendizado acerca de usabilidade, regras de negócio e suporte a sistemas, tanto web, quanto desktop. Além de melhorar a comunicação devida à trativa diária com o usuário final/cliente."
     },
     {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
-    },
-    {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      "name": "Front end development - Porto Digital technological residence",
+      "period": "2022 - 2th period",
+      "description": "Durante essa e outras fases da residência com o Porto Digital, estivemos em contato com a metodologia Scrum, desenvolvimento web front end, trabalho em equipe, entregas a prazo e etc, para uma empresa parceira do Porto Digital que foi mentora do meu squad."
     }
   ]
 }
