@@ -98,6 +98,18 @@
   margin-bottom: 5px;
 }
 
+#dioIconContainer{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+#dioIcon{
+  width:50px;
+  height:40px;
+  margin-right: 45px;
+}
+
 
 
 @media screen and (max-width: 420px) {

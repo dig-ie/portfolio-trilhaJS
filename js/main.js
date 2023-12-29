@@ -43,9 +43,11 @@ async function resolvePortfolio(profileData){
   portfolio.innerHTML = profileData.portfolio.map(project => `<li>
   <h3>${project.name}</h3>
   <a
-  ${project.url}
-  >
-</li>`)
+                target="_blank"
+                href="${project.url}"
+                >${project.url}</a
+              >
+</li>`).join('')
 }
 async function resolveProfessionalXP(profileData){
   const professionalXP = document.getElementById('profile.professionalExperience')
@@ -68,6 +70,7 @@ document.addEventListener('DOMContentLoaded', async function() {
   resolveLanguages(profileData);
   resolveEducation(profileData)
   resolveProfessionalXP(profileData)
+  resolvePortfolio(profileData)
 });
 
  
