@@ -30,7 +30,7 @@
       },
       {
         "name": "MongoDB",
-        "logo": "https://github.com/diegoDeBarros/portfolio-trilhaJS/blob/main/assets/imgs/mongoDB.png"
+        "logo": "https://raw.githubusercontent.com/diegoDeBarros/portfolio-trilhaJS/main/assets/imgs/mongoDB.png"
       }
       ,{
         "name": "MySQL",
