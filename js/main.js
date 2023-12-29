@@ -1,4 +1,5 @@
-async  function resolveProfileData(profileData){
+
+async  function resolveprofileData(profileData){
   //function to fill dynamically the profille data fields
   const photo = document.getElementById('profile.photo');
   photo.src = profileData.photo
@@ -12,15 +13,25 @@ async  function resolveProfileData(profileData){
   email.innerText = profileData.email
 }
 
-async function resolveSoftSkilss(profiledata){
 
-  const softSKills = document.getElementById('profile.softSkills')
-  softSKills.innerText = profiledata.softSKills
-  
+async function resolveHardSkills(profileData){
+  const hardSkills = document.getElementById('profile.skills.hardSkills')
+  hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `<li><img src='${skill.logo}'/></li>`)
 }
 
+async function resolveSoftSkilss(profileData){
+
+  const softSKills = document.getElementById('profile.skills.softSkills')
+  softSKills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join('')
+}
+
+
+
 (async () => {
+  
   const profileData = await fetchProfileData();
   console.log(profileData);
-  resolveProfileData(profileData);
+  resolveprofileData(profileData);
+  resolveSoftSkilss(profileData);
+  resolveHardSkills(profileData);
 })();
