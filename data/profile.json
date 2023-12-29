@@ -29,6 +29,10 @@
         "logo": "https://raw.githubusercontent.com/diegoDeBarros/portfolio-trilhaJS/main/assets/imgs/java.png"
       },
       {
+        "name": "MongoDB",
+        "logo": "https://raw.githubusercontent.com/diegoDeBarros/portfolio-trilhaJS/main/assets/imgs/mongoDB.png"
+      }
+      ,{
         "name": "MySQL",
         "logo": "https://raw.githubusercontent.com/diegoDeBarros/portfolio-trilhaJS/main/assets/imgs/mysql.png"
       }

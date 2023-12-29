@@ -18,6 +18,7 @@
   padding: 0;
   flex-wrap: wrap;
   padding-right: 5px;
+  gap:4px;
 }
 
 
@@ -30,6 +31,8 @@
 #skills_content h3 {
   font-weight: 600;
 }
+
+
 
 @media screen and (max-width: 400px) {
   #skills_content {
