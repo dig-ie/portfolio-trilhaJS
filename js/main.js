@@ -23,12 +23,18 @@ async function resolveHardSkills(profileData){
   hardSkills.innerHTML = profileData.skills1.hardSkills.map(skill => `<li><img  src="${skill.logo}" alt="" /></li>`).join(''); 
 }
 
+async function resolveLanguages(profileData){
+  const languages = document.getElementById('profile.languages')
+  languages.innerHTML = profileData.languages.map(language =>`<li>${language}</li>`).join('')
+}
+
 document.addEventListener('DOMContentLoaded', async function() {
   const profileData = await fetchProfileData();
   console.log(profileData);
   resolveprofileData(profileData);
   resolveSoftSkilss(profileData);
   resolveHardSkills(profileData);
+  resolveLanguages(profileData);
 });
 
  

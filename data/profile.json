@@ -46,6 +46,14 @@
     ]
   },
   "languages": ["Português BR", "Inglês (intermediário)"],
+  "education":[{"name":"Digital Inovation One", "description":"Formação JavaScript Developer (39 Hrs) - 2023.2"},
+               {"name":"CertiProf", "description":"Scrum Foundation Professional Certification - SFPC - 2022.2"},
+               {"name":"Faculdade Senac Pernambuco", "description":"Superior de tecnologia em Análise e Desenvolvimento de Sistemas - 2022.1 (Current)"},
+               {"name":"Embarque Digital - Porto Digital", "description":"Residência tecnológica com o Porto Digital - 2022.1 (Current)"},
+               {"name":"ETE - Prof. José Luiz de Mendonça", "description":"Curso Técnico em Redes de Computadores - 2017"},
+               {"name":"Speed Work Cursos", "description":"Computação gráfica (Photoshop, Adobe Illustrator, Corel Draw...) - 2014"}
+              ],
+
   "portfolio": [
     {
       "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
