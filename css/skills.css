@@ -1,6 +1,6 @@
 #skills_content {
   padding-left: 1rem;
-  padding-bottom: 0.4rem;
+  /* padding-bottom: 0.4rem; */
   display: flex;
   justify-content: space-around;
   gap:7px;
@@ -30,6 +30,7 @@
 
 #skills_content h3 {
   font-weight: 600;
+  max-height: 100%;
 }
 
 
