@@ -1,4 +1,4 @@
-Portfolio da Formação JavaScript Developer da DIO feito com JS, responsivo (mobile first) e com dados dinâmicos da API do github e do profile.JSON. 
+Portfolio da Formação JavaScript Developer da DIO feito com JS, responsivo (mobile first), utilizando alguns dados da API do github e demais dados de profile.JSON. 
 
 Hospedado no github Pages: https://dig-ie.github.io/trilha-js-portfolio/
 
