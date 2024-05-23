@@ -1,6 +1,6 @@
 # Portólio Mobile First JavaScript
 
-Portólio mobile first utilizando JavaScript puro, html e css. Alguns dados com base na API do Github e outros com base no profile.JSON, dos arquivos do repositório. Hospedado no meu github pages.
+Portólio mobile first utilizando JavaScript puro, html e css. Alguns dados com base na API do Github e outros com base no profile.JSON, dos arquivos do repositório. Projeto hospedado no meu github pages.
 
 ## Demonstração
 https://dig-ie.github.io/trilha-js-portfolio/
